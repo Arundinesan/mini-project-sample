@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+    background: url(imag/3452442.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner .navbar{
+    margin-top: 10px;
+}
+.banner .navbar-brand{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 5%;
+}
+.banner .nav {
+    margin-left: 10%;
+}
+.banner .nav li a {
+    color: #ffffff;
+    font-size: 1.3em;
+}
+.banner .nav  .btn{
+    background-color:black;
+}
+.banner .nav  .btn:hover{
+background-color: blue;
+}
+
+.banner .info{
+    margin:170px -50px
+
+}
+.banner .info h1{
+    color: #ffffff;
+    font-size: 2.9em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: 20%;
+}
+.banner .info h4{
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: 15%;
+}
+.banner .info a{
+
+    margin-left: 35%;
+    transform: translateX(-50px);
+    color: #ffffff;
+    background: black;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-weight: 600;
+    
+}
+.banner .info a:hover{
+    background-color: blue;
+}
