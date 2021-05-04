@@ -1,0 +1,32 @@
+ .bg{
+     background: url(imag/3452442.jpg);
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 100vh;
+     background-size: 100%;
+ }
+ 
+ .form-container{
+     position: absolute;
+     width: 606px;
+     height: 674px;
+     left: 417px;
+
+     top: 83px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+.form-container .btn-s{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+position: absolute;
+width: 250px;
+height: 58px;
+top: 350px;
+right: 200px;
+}
